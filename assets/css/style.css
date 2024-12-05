@@ -175,7 +175,7 @@ header.rolar .btn-menu-mob div {
 
 header .btn-menu-mob .line-menumob-1.ativo1{
   /* transform: rotate(45deg) translate(30%); */
-  background-color: #ff0000;
+  background-color: #ffee00;
   width: 30px; 
 
 }
@@ -183,12 +183,12 @@ header .btn-menu-mob .line-menumob-1.ativo1{
 header .btn-menu-mob .line-menumob-2.ativo2{
   /* transform: rotate(45deg) translate(30%);  */
   width: 30px;
-  background-color: #ff0000;
+  background-color: #ffee00;
 }
 
 header .btn-menu-mob .line-menumob-3.ativo3{
   width: 30px;
-  background-color: #ff0000;
+  background-color: #ffee00;
 }
 
 /* ------------ */
