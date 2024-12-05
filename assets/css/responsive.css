@@ -1,0 +1,161 @@
+@media screen and (max-width: 900px){
+    header .menu-desktop, header .btn-contato{
+        display: none;
+    }
+
+    header .btn-menu-mob{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 878px){
+
+    section.hero-site{
+        background-image: url('../img/img-bg-mob-3.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+      }
+
+    /*  Estilo responsivo da hero */
+    section.hero-site .txt-hero h1{
+        font-size: 1.9em;
+        line-height: 30px;
+        text-align: center;
+        z-index: 1;
+        color: #fff;
+    }
+    section.hero-site .txt-hero p{
+        font-size: 17px;
+        text-align: center;
+        color: #fff;
+    }
+    
+    section.hero-site .txt-hero p span{
+        display: inline;
+    }
+
+    /* ---------------------- */
+
+        
+    /*  Estilo responsivo de sobre */
+    section.sobre-site{
+        background-image: url('../img/img-bg-mob-3.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        color: #fff;
+      }
+
+
+    section.sobre-site .itens-container-sobre{
+        flex-direction: column;
+    }
+
+    section.sobre-site .itens-container-sobre .img-itens-sobre img{
+        width: 100%;
+    }
+
+    section.sobre-site .itens-container-sobre .txt-itens-sobre p{
+        margin-bottom: 20px;
+        font-size: 17px;
+        color: #fff;
+    }
+
+    section.sobre-site .itens-container-sobre .item-1{    
+        order: 1;
+    }        
+
+    section.sobre-site .itens-container-sobre .item-2{    
+        order: 0;
+    }        
+
+    section.sobre-site .itens-container-sobre .txt-itens-sobre h3{
+        font-size: 30px;
+        line-height: 50px;
+        margin-bottom: 20px;
+        color: #FD7081;
+        text-align: center;
+      }
+
+    /* -------------------------------------------*/
+
+    /*  Estilo responsivo de sobre */
+    section.servicos-site{
+        background-image: url('../img/img-bg-mob-3.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        color: #fff;
+      }
+
+    section.servicos-site .itens-container-servicos{
+        flex-direction: column;
+    }
+
+    section.servicos-site .itens-container-servicos .img-itens-servicos img{
+        width: 100%;
+    }
+
+    section.servicos-site .itens-container-servicos .txt-itens-servicos p{
+        margin-bottom: 20px;
+        font-size: 17px;
+        color: #fff;
+    }
+
+    section.servicos-site .itens-container-servicos .item-1{    
+        order: 1;
+    }        
+
+    section.servicos-site .itens-container-servicos .item-2{    
+        order: 0;
+    }        
+
+    section.servicos-site .itens-container-servicos .txt-itens-servicos h3{
+        font-size: 30px;
+        line-height: 50px;
+        margin-bottom: 20px;
+        color: #FD7081;
+        text-align: center;
+      }
+    
+    /* -------------------------------------------*/
+    
+    /* Estilo responsivo de contato */
+    article.txt-contato, .icons-contato{
+        display: block;
+        width: 100%;
+    }
+
+    section.contato .txt-contato h3{
+        font-size: 1.8em;
+        line-height: 40px;
+        margin-top: 25px;
+    }
+
+    section.contato .txt-contato p{
+        margin-bottom: 0px;
+    }
+
+    section.contato .icons-contato button{
+        width: 100%;
+    }
+
+    /* -------------------------------- */
+
+    /* Estilo resposivo rodape */
+    footer .middle-footer a{
+        margin: 15 0px;
+        display: block;
+    }
+
+    footer .bottom-footer p{
+        font-size: 14px;
+
+    }
+
+}
+   
